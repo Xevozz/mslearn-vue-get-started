@@ -4,7 +4,11 @@ const app = Vue.createApp({
             productName: 'Book a Cruise to the Moon',
             productDescription: 'Cruise to the moon in our luxurious shuttle. Watch the astronauts working outside the International Space Station.',
             // additional properties later
-
+            productImage: 'assets/cruise.jpg',
+            productDescription: 'An astronaut floats outside the windo while you sit in comfort',
+            productImageStyle: {
+                'border-radius' : '15 px'
+            }
 
         }
     },
