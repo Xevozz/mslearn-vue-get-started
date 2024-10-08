@@ -18,7 +18,8 @@
     <div id="app">
         <h2>{{ productName }}</h2>
         <div>{{ productDescription }}</div>
-                <!-- instead of v-bind  " : " is enough -->
+                <!-- instead of v-bind  " : " is enough - example below-->
+                 <!-- img :src="productImage" :alt="productImageDescription" :style="productImageStyle" -->
             <img v-bind:src="productImage" v-bind:alt="productImageDescription" :style="productImageStyle" />
     </div>
     
